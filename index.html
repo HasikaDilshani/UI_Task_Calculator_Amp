@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en" data-state="state-1">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Replace with fonts from your Figma design -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+
+
+
+    <main class="container">
+        <header class="header">
+            <div class="header-content">
+                <h1>Dijkstra’s Algorithm Calculator</h1>
+                <p>Discovering Optimal Routes Through Nodes Using Dijkstra's Method</p>
+            </div>
+        </header>
+        <div class="box-layout">
+            <!-- Left: Form -->
+            <div class="form-section">
+                <h2>Select Path</h2>
+
+                <div>
+                    <label for="from">From Node</label>
+                    <select id="fromNode">
+                        <option>Select</option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                        <option value="E">E</option>
+                        <option value="F">F</option>
+                        <option value="G">G</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="to">To Node</label>
+                    <select id="toNode">
+                        <option>Select</option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                        <option value="E">E</option>
+                        <option value="F">F</option>
+                        <option value="G">G</option>
+                    </select>
+                </div>
+
+                <div class="btn-group">
+                    <button class="btn btn-clear" id="clearBtn">Clear</button>
+                    <button class="btn btn-calc" id="calculateBtn">Calculate
+                        <i class="fa-solid fa-calculator"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div id="resultContainer">
+                <!-- Placeholder Illustration -->
+                <div id="placeholderBox">
+                    <img src="assets/images/img.jpg"
+                        style="width:100%; max-width:250px; margin:auto; display:block;">
+                    </div>
+
+                <!-- Actual Result Box (hidden by default) -->
+                <div id="resultBox" style="display:none;"></div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
