@@ -29,4 +29,4 @@ It provides a user-friendly interface to select start and end nodes and instantl
 
 1. Clone the repository:  
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/HasikaDilshani/UI_Task_Calculator_Amp.git
